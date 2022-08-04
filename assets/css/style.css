@@ -30,7 +30,7 @@ a {
     width: 100%;
     position: relative;
     background-color: var(--color-first-bg);
-    animation: color 3s .05s infinite ease-in-out alternate-reverse;
+    animation: color 4s .05s infinite ease-in-out alternate-reverse;
 }
 
 .container>div {
