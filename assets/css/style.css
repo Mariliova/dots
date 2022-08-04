@@ -4,12 +4,14 @@
     --color-third: DodgerBlue;
     --color-fourth: MediumSeaGreen;
     --color-fifth: Violet;
+    --color-sixth: gray;
 
     --color-first-bg: rgba(255, 99, 71, 0.514);
     --color-second-bg: rgba(255, 166, 0, 0.551);
     --color-third-bg: rgba(30, 143, 255, 0.593);
     --color-fourth-bg: rgba(60, 179, 114, 0.471);
     --color-fifth-bg: rgba(238, 130, 238, 0.366);
+    --color-sixth-bg: rgba(128, 128, 128, 0.675);
 }
 
 * {
@@ -19,7 +21,7 @@
     font-size: 20px;
 }
 
-a{
+a {
     display: block;
 }
 
@@ -74,28 +76,36 @@ a{
         transform: rotate(45deg);
     }
 
-    25% {
+    20% {
         border-radius: 50% 0 0 0;
         background-color: var(--color-second);
         transform: rotate(135deg);
     }
 
-    50% {
+    40% {
         border-radius: 50% 50% 0 0;
         background-color: var(--color-third);
         transform: rotate(180deg);
     }
 
-    75% {
+    60% {
         border-radius: 50% 50% 50% 0;
         background-color: var(--color-fourth);
         transform: rotate(315deg);
     }
 
-    100% {
+    80% {
         border-radius: 50%;
         background-color: var(--color-fifth);
         transform: rotate(404deg);
+        transform: rotateY(0);
+    }
+
+    100% {
+        border-radius: 50%;
+        background-color: var(--color-sixth);
+        transform: rotate(404deg);
+        transform: rotateY(-360deg);
     }
 
 }
@@ -107,28 +117,36 @@ a{
         transform: rotate(45deg);
     }
 
-    25% {
+    20% {
         border-radius: 0 0 50% 0;
         background-color: var(--color-second);
         transform: rotate(135deg);
     }
 
-    50% {
+    40% {
         border-radius: 0 0 50% 50%;
         background-color: var(--color-third);
         transform: rotate(180deg);
     }
 
-    75% {
+    60% {
         border-radius: 50% 0 50% 50%;
         background-color: var(--color-fourth);
         transform: rotate(315deg);
     }
 
-    100% {
+    80% {
         border-radius: 50%;
         background-color: var(--color-fifth);
         transform: rotate(404deg);
+        transform: rotateY(0);
+    }
+
+    100% {
+        border-radius: 50%;
+        background-color: var(--color-sixth);
+        transform: rotate(404deg);
+        transform: rotateY(-360deg);
     }
 
 }
@@ -138,20 +156,24 @@ a{
         background-color: var(--color-first-bg);
     }
 
-    25% {
+    20% {
         background-color: var(--color-second-bg);
     }
 
-    50% {
+    40% {
         background-color: var(--color-third-bg);
     }
 
-    75% {
+    60% {
         background-color: var(--color-fourth-bg);
     }
 
-    100% {
+    80% {
         background-color: var(--color-fifth-bg);
+    }
+
+    100% {
+        background-color: var(--color-sixth-bg);
     }
 
 }
