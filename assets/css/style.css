@@ -42,11 +42,11 @@ a {
 }
 
 .type1 {
-    animation: shape-Y 3s .05s infinite ease-in-out alternate-reverse;
+    animation: shape-Y 4s .05s infinite ease-in-out alternate-reverse;
 }
 
 .type2 {
-    animation: shape-X 3s .05s infinite ease-in-out alternate-reverse;
+    animation: shape-X 4s .05s infinite ease-in-out alternate-reverse;
 }
 
 .item__1 {
