@@ -21,10 +21,6 @@
     font-size: 20px;
 }
 
-a {
-    display: block;
-}
-
 .container {
     height: 100vh;
     width: 100%;
@@ -45,32 +41,32 @@ a {
     background-color: var(--color-first);
 }
 
-.type1 {
-    animation: shape-Y 4s .05s infinite ease-in-out alternate-reverse;
-}
-
 .type2 {
     animation: shape-X 4s .05s infinite ease-in-out alternate-reverse;
 }
 
-.item__1 {
+.item1 {
     top: 10%;
     left: 50%;
+    animation: shape-Y 4s .05s infinite ease-in-out alternate-reverse;
 }
 
-.item__2 {
+.item2 {
     top: 40%;
     left: 35%;
+    animation: shape-X 4s .05s infinite ease-in-out alternate-reverse;
 }
 
-.item__3 {
+.item3 {
     top: 40%;
     left: 65%;
+    animation: shape-Y 4s .05s infinite ease-in-out alternate-reverse;
 }
 
-.item__4 {
+.item4 {
     top: 70%;
     left: 50%;
+    animation: shape-X 4s .05s infinite ease-in-out alternate-reverse;
 }
 
 @keyframes shape-Y {
