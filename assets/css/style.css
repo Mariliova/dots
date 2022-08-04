@@ -31,6 +31,10 @@ a {
     position: relative;
     background-color: var(--color-first-bg);
     animation: color 4s .05s infinite ease-in-out alternate-reverse;
+    perspective: 45rem;
+    perspective-origin: 50% 2rem;
+    position: relative;
+    transition: 2s;
 }
 
 .container>div {
